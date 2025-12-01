@@ -305,20 +305,39 @@ a{
     }
 }
 
-@media screen and (max-width:750px) {
-    .Presence{
+@media screen and (max-width: 600px) {
+
+    .container {
         grid-template-columns: 1fr;
+        padding: 10px;
+        width: 100%;
     }
 
-    #navigation nav {
-        /* Adjust nav for smaller screens */
+    .sidebar {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #Navigation nav {
         justify-content: center;
         flex-wrap: wrap;
+        gap: 15px;
     }
 
-    .sidebar{
-        display: flex;
-        justify-content: center;
-        gap: 40px;
+    .Profile {
+        grid-template-columns: 1fr !important;
+        gap: 20px;
+    }
+
+    .profile p {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
