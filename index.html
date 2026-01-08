@@ -1,142 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="portfolio.css">
+  <meta charset="UTF-8">
+  <title>Ayush Verma | Terminal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar">
-            <!--Profile section-->
-            <div class="profile">
-                <img src="Photo.jpg" alt="">
-                <h3>Ayush Verma</h3>
-                <p>Frontend Developer</p>
-            </div>
 
-            <!--Contact section-->
-            <div class="contact">
-                <div class="email">
-                    <h3 class="value">Email</h3>
-                    <a href="mailto:ayush.verma.1302@gmail.com" class="task">ayush.verma.1302@gmail.com</a>
-                </div>
-                <div class="phone">
-                    <h3 class="value">Phone</h3>
-                    <a href="tel:7786863473" class="task">7786863473</a>
-                </div>
-                <div class="Location">
-                    <h3 class="value">Location</h3>
-                    <p class="task">Kanpur,India</p>
-                </div>
-            </div>
+<div class="terminal-window">
+  <div class="terminal-header">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+    <span class="title">ayush@portfolio — zsh</span>
+  </div>
 
-            <!--Social section-->
-            <div class="Social">
-                <a href="https://github.com/ayushverma442" target="blank"><img src="https://simpleicons.org/icons/github.svg" alt="" class="first"></a>
-                <a href="https://www.linkedin.com/in/ayush-verma-a2b67833a" target="blank"><img src="https://simpleicons.org/icons/x.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/ayush-verma-a2b67833a" target="blank"><img src="https://www.svgrepo.com/show/204944/linkedin.svg" alt="" class="first"></a>
-            </div>
-        </div>
-        <div class="main">
-            <!--Navigation Bar-->
-            <div id="Navigation">
-                <nav>
-                    <a href="#AboutMe" class="active">About Me</a>
-                    <a href="#Skills">Skills</a>
-                    <a href="#Education">Education</a>
-                    <a href="#Presence">Presence</a>
-                </nav>
-            </div>
+  <div class="terminal-body">
 
-            <!--About Me-->
-            <div id="AboutMe">
-                <h2>About Me</h2>
-                <div class="line"></div>
-                <p>I am a Computer Science student with a focus on building practical, scalable, and efficient solutions. I enjoy working with modern technologies, solving complex problems, and exploring new areas of development — from web development to data structures and algorithms.
-                    I believe in writing clean, maintainable code and continuously improving my skills through real-world projects and challenges. My goal is to contribute to meaningful software that makes life easier and more enjoyable for people.</p>
-            </div>
-
-            <!--Skills-->
-            <div id="Skills">
-                <h2>Skills</h2>
-                <div class="line"></div>
-                <div class="grid-container">
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/html5.svg" alt="">
-                        <h3>HTML 5</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/css.svg" alt="">
-                        <h3>CSS</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/javascript.svg" alt="">
-                        <h3>Javascript</h3>
-                    </div>
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/git.svg" alt="">
-                        <h3>Git & GitHub</h3>
-                    </div>
-                </div>
-
-            </div>
-
-            <!--Education-->
-            <div id="Education">
-                <h2>Education</h2>
-                <div class="line"></div>
-                <div class="edu">
-                    <div class="ed1">
-                        <div class="year">2024-Present</div>
-                        <h3 class="degree">Bachelor of Technology CSE  </h3>
-                        <p class="score">CGPA-8.52</p>
-                        <p class="college">Pranveer Singh Institute of Technology</p>
-                        <p class="work">Building skills in coding, software development, and core CS concepts.</p>
-                        <div class="goal"></div>
-                    </div>
-                    <div class="ed2">
-                        <div class="year">2022-2024</div>
-                        <h3 class="degree">Senior Secondary Education</h3>
-                        <p class="score">Scored 86.4%</p>
-                        <p class="college">Central Board of Secondary Education</p>
-                        <p class="work">Learned to analyze concepts, solve complex problems, and think critically.</p>
-                        <div class="goal"></div>
-                    </div>
-                    <div class="liner"></div>
-                </div>
-            </div>
-
-            <!--Portfolio-->
-            <div id="Presence">
-                <h2>Presence</h2>
-                <div class="line"></div>
-                <div class="Profile">
-                    
-                    <a href="https://leetcode.com/u/verma_ayush/" target="_blank">
-                        <div class="item">
-                         <img src="https://simpleicons.org/icons/leetcode.svg" alt="">
-                        <h3>Leetcode</h3>
-                    </div></a>
-                    <a href="https://www.hackerrank.com/profile/2k24_cs1g_241423" target="_blank">
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/hackerrank.svg" alt="">
-                        <h3>hackerrank</h3>
-                    </div></a>
-                    <a href="https://www.geeksforgeeks.org/profile/ayushvergoh6?tab=activity" target="_blank">
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/geeksforgeeks.svg" alt="">
-                        <h3>GeeksforGeeks</h3>
-                    </div></a>
-                    <a href="https://www.codechef.com/users/huge_zenith_31" target="_blank">
-                    <div class="item">
-                        <img src="https://simpleicons.org/icons/codechef.svg" alt="">
-                        <h3>CodeChef</h3>
-                    </div></a>
-                </div>
-            </div>
-        </div>
+    <!-- Profile Header -->
+    <div class="profile-header">
+      <img src="Photo.jpg" alt="Ayush Verma" class="avatar">
+      <div class="profile-text">
+        <div class="name">Ayush Verma</div>
+        <div class="role">Frontend Developer</div>
+        <div class="location">📍 Kanpur, India</div>
+      </div>
     </div>
+
+    <!-- Output -->
+    <div id="output"></div>
+
+    <!-- Input -->
+    <div class="input-line">
+      <span class="prompt">➜ ayush</span>
+      <span class="path"> ~ </span>
+      <span class="symbol">$</span>
+      <input id="command" autofocus />
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
